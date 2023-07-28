@@ -15,7 +15,6 @@ class Rental
 
   private
 
-
   def assign_book(book)
     @book = book
     book.rentals << self
