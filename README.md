@@ -1,4 +1,4 @@
-# school-library
+# School library
 
 <a name="readme-top"></a>
 
