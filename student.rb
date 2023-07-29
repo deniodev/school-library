@@ -7,6 +7,7 @@ class Student < Person
     super(options)
     @age = age
     @classroom = classroom
+    @name = options[:name]
     @parent_permission = options[:parent_permission]
     @rentals = []
   end
