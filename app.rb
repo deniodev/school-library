@@ -148,7 +148,7 @@ def new_rental
   book_index = gets.chomp.to_i
   book = Infor.books[book_index]
 
-  puts 'Enter the rental date (YYY-MM-DD):'
+  puts 'Enter the rental date (YYYY-MM-DD):'
   date = gets.chomp
 
   rental = Rental.new(date, book, person)
